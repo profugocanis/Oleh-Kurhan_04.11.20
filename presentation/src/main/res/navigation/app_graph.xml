@@ -1,0 +1,17 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_graph"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.ijk.weathermap.ui.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/placeWeatherFragment"
+        android:name="com.ijk.weathermap.ui.place.PlaceWeatherFragment"
+        android:label="fragment_place_weather"
+        tools:layout="@layout/fragment_place_weather" />
+</navigation>

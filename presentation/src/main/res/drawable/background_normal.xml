@@ -1,0 +1,27 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="0sp">
+
+        <shape android:shape="rectangle">
+
+            <corners
+                android:bottomLeftRadius="0sp"
+                android:bottomRightRadius="0sp"
+                android:topLeftRadius="0sp"
+                android:topRightRadius="0sp" />
+
+            <stroke
+                android:width="0dp"
+                android:color="@color/transparent" />
+
+            <!--            <size android:width="@dimen/normal" />-->
+
+            <padding
+                android:bottom="0sp"
+                android:left="8sp"
+                android:right="8sp"
+                android:top="0sp" />
+            <solid android:color="@color/transparent" />
+        </shape>
+
+    </item>
+</layer-list>
